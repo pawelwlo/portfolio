@@ -250,7 +250,10 @@ a:active {
   }
   
   
-
+.contact-link {
+    font-size: 30px;
+    margin-bottom: 75px;
+}
 
 .container img {
     border: 1px solid #ddd;
@@ -486,6 +489,10 @@ input[type="submit"]:hover {
 
 @media screen and (max-width:700px) {
 
+  .contact-link {
+    font-size: 20px;
+    margin-bottom: 75px;
+}
   
     .hero { 
         display: flex;
