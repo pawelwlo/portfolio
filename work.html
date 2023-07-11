@@ -9,6 +9,7 @@
     <link rel="stylesheet"
   href="https://fonts.googleapis.com/css?family=Indie Flower"> 
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Jost">
+</head>
     
   <header>
     <div class="header">
@@ -24,6 +25,9 @@
    
   </header>
           <main>
+            <body>
+
+          
         <div class="work" id="projects">
             <p>
                 Selected work:
@@ -34,48 +38,71 @@
         </div>
             
         <div class="container">
-            <div class="project-1">
-                <h3>Ski Adventure Website</h3>
-                <a class="ski-link" href="https://pawelwlo.github.io/ski/"><img id="ski" src="ski.png" alt="ski"></a>
+            <div class="slider">
+                <div class="slider__slides">
+                        
+                        <div class="slider__slide active">
+                          
+                            <div class="img-text">Ski Adventure</div>
+                        <img id="ski" src="pictures/ski_adv.png" alt="ski">
+                        
+                    
+                                             
+                          </a>
+                        </div>
+                        
+                
+                    
+                    <div class="slider__slide">
+                        <div class="img-text">Coffee Shop Website</div><a href="https://pawelwlo.github.io/bean/">
+                          <img src="pictures/coffee_shop.png"  alt="bean" id="bean">
+                        </a>
+                      
+                        
+                       
+                        <a href="https://pawelwlo.github.io/bean/"></a>
+                    </div>
+                    <div class="slider__slide">
+                        <div class="img-text">Weather App</div>
+                        <img id="weather" src="pictures/wetaher_app.png" alt="weather">
+                        
+                        
+                        
+                    </div>
+                    <div class="slider__slide">
+                        <div class="img-text">Meme Generator</div>
+                        <img src="pictures/meme_maker.png" alt="meme" id="meme">
+                        
+                        
+                       
+                    </div>
+                    <div class="slider__slide">
+                        <div class="img-text">Online Store</div>
+                        <img src="pictures/amazing_store.png" alt="store" id="store">
+                        
+                       
+                        
+                    </div>
+                    <div class="slider__slide">
+                        <div class="img-text">Food App</div>
+                        <img src="pictures/food_app.png" alt="food" id="food">
+                        
+                        
+                       
+                     </div>
+                </div>
+                <div id="nav-button--prev" class="slider__nav-button"></div>
+              <div id="nav-button--next" class="slider__nav-button"></div>
+              <div class="slider__nav">
+                <div class="slider__navlink active"></div>
+                <div class="slider__navlink"></div>
+                <div class="slider__navlink"></div>
+                <div class="slider__navlink"></div>
+                <div class="slider__navlink"></div>
+                <div class="slider__navlink"></div>
+              </div>
+            </div>
             
-                <p>a website designed for a travel office</p>
-                <a href="https://pawelwlo.github.io/ski/">View project</a>
-            </div>
-            <div class="project-2">
-                <h3>Coffee Shop Website</h3>
-                <a class="bean-link" href="https://pawelwlo.github.io/bean/"><img src="coffepic.png"  alt="bean" id="bean"></a>
-                
-                <p>a website designed for a coffee shop</p>
-                <a href="https://pawelwlo.github.io/bean/">View project</a>
-            </div>
-            <div class="project-3">
-                <h3>Weather App</h3>
-                <a class="weather-link" href="https://pawelwlo.github.io/weather_app/"><img id="weather" src="weather-logo.png" alt="weather"></a>
-                
-                <p>A Web App showing the local weather</p>
-                <a href="https://pawelwlo.github.io/weather_app/">View project</a>
-            </div>
-            <div class="project-4">
-                <h3>Meme Generator</h3>
-                <a class="meme-link" href="https://pawelwlo.github.io/meme_app/"><img src="meme.png" alt="meme" id="meme"></a>
-                
-                <p>Thanks to this App you will generate your memes easy</p>
-                <a href="https://pawelwlo.github.io/meme_app/">View project</a>
-            </div>
-            <div class="project-5">
-                <h3>Online Store</h3>
-                <a class="meme-link" href="https://web-store-pawelwlo.vercel.app/"><img src="web-store-logo.png" alt="store" id="store"></a>
-                
-                <p>Example of an online store with full functionality</p>
-                <a href="https://web-store-pawelwlo.vercel.app/">View project</a>
-            </div>
-            <div class="project-6">
-                <h3>Food App</h3>
-                <a class="meme-link" href="https://pawelwlo.github.io/food-app/"><img src="foodApp.png" alt="food" id="food"></a>
-                
-                <p>Find your favorite recipes using my app</p>
-                <a href="https://pawelwlo.github.io/food-app/">View project</a>
-            </div>
            
         </div>    
         <div class="back-home">
@@ -85,10 +112,12 @@
         
         
          </div>
+         <script src="script.js"></script>
+        </body>
     </main>
     <footer class="footer">
         <div>Pawel Wlodarczyk</div>
         <div>© 2022 Pawel Wlodarczyk. All rights reserved</div>
         <div class="footer-img"><a href="https://github.com/pawelwlo"><img id="social-logo" src="github-logo.png" alt="social-logo"></a> </div>
       </footer>
-</head>
+
