@@ -6,7 +6,7 @@
 --color-signal: #fab700;
 
 --color-background: var(--color-light);
---color-text: rgb(167, 130, 43);
+--color-text: rgb(230, 164, 12);
 --color-accent: var(--color-signal);
 
 --size-bezel: .5rem;
@@ -266,14 +266,12 @@ a:active {
   
  
   .container {
-    /* display: grid;
+    display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-auto-rows: repeat(2, auto);
     gap: 3rem;
-    width: min(90%, 100rem); */
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    width: min(90%, 100rem);
+    
     margin: 0 auto;
     padding: 3rem;
     font-family: Jost;
@@ -294,10 +292,10 @@ a:active {
 
   }
 
-  .slider__slide img {
+  /* .slider__slide img {
     /* width: 100%;
     height: auto;
-    align-items: center; */
+    align-items: center; 
    
   object-position: center center;
   display: block;
@@ -314,12 +312,12 @@ a:active {
     overflow: hidden;
   }
 
-  .slider__slides {
+  /* .slider__slides {
     width: 100%;
     padding-top: 66%;
-  }
+  } */
   
-  .slider__slide {
+  /* .slider__slide {
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -335,41 +333,41 @@ a:active {
       transition: 1s;
       opacity: 0;
       padding: 10px;
-  }
+  } */
 
 
   
-  .slider__slide.active {
+  /* .slider__slide.active {
       opacity: 1;
-      /* display: flex;
+     display: flex;
       flex-direction: column;
       background-color: none;
       align-items: center;
-      justify-content: center; */
-  }
+      justify-content: center; 
+  } */
 
-  .slider__nav-button {
+  /* .slider__nav-button {
     position: absolute;
     height: 70px;
     width: 70px;
     background-color: #333;
     opacity: .8;
     cursor: pointer;
-}
+} */
 
-#nav-button--prev {
+/* #nav-button--prev {
   top: 50%;
   left: 0;
   transform: translateY(-50%);
-}
+} */
 
-#nav-button--next {
+/* #nav-button--next {
   top: 50%;
   right: 0;
   transform: translateY(-50%);
-}
+} */
 
-#nav-button--prev::after,
+/* #nav-button--prev::after,
 #nav-button--next::after {
     content: "";
     position: absolute;
@@ -379,25 +377,38 @@ a:active {
     padding: 3px;
     width: 40%;
     height: 40%;
-}
+} */
 
-#nav-button--next::after{
+/* #nav-button--next::after{
   top: 50%;
   right: 50%;
   transform: translate(25%, -50%) rotate(-45deg);
-}
+} */
 
-#nav-button--prev::after {
+/* #nav-button--prev::after {
   top: 50%;
   right: 50%;
   transform: translate(75%, -50%) rotate(135deg);
-}
+}  */
 
 @media screen and (max-width: 640px) {
-  .slider__nav-button {
+  /* .slider__nav-button {
     height: 40px;
     width: 40px;
+  } */
+
+  .project {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: #343634;
   }
+
+
   .img-text {
     
     
@@ -711,7 +722,7 @@ input[type="submit"]:hover {
         /* border: 1px solid #ddd; */
         border-radius: 4px;
         padding: 5px;
-        width: 80%;
+        width: 100%;
         height: auto;
         
         
@@ -732,7 +743,7 @@ input[type="submit"]:hover {
       .container > div > H3 {
         /* font-size: medium;
         margin-top: 20px; */
-        
+        align-items: center;
       }
      
       .contact-me-contact {

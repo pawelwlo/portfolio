@@ -36,35 +36,35 @@ document.querySelectorAll('.slider__navlink').forEach((bullet, bulletIndex) => {
 });
 
 
-let slideLinks = [
-    "https://pawelwlo.github.io/ski/",
-    "https://pawelwlo.github.io/bean/",
-    "https://pawelwlo.github.io/weather_app/",
-    "https://pawelwlo.github.io/meme_app/",
-    "https://web-store-pawelwlo.vercel.app/",
-    "https://pawelwlo.github.io/food-app/"
-];
+// let slideLinks = [
+//     "https://pawelwlo.github.io/ski/",
+//     "https://pawelwlo.github.io/bean/",
+//     "https://pawelwlo.github.io/weather_app/",
+//     "https://pawelwlo.github.io/meme_app/",
+//     "https://web-store-pawelwlo.vercel.app/",
+//     "https://pawelwlo.github.io/food-app/"
+// ];
 
 
-slides.forEach((slide, index) => {
-    let slideLink = slideLinks[index];
-    let imageLink = slide.querySelector("img");
+// slides.forEach((slide, index) => {
+//     let slideLink = slideLinks[index];
+//     let imageLink = slide.querySelector("img");
 
 
 
-    let anchorTag = document.createElement("a");
+//     let anchorTag = document.createElement("a");
     
     
     
-    anchorTag.href = slideLink;
+//     anchorTag.href = slideLink;
     
-    anchorTag.appendChild(imageLink);
+//     anchorTag.appendChild(imageLink);
    
-    slide.innerHTML = "";
-    slide.appendChild(anchorTag);
-    console.log(anchorTag);
-    anchorTag.addEventListener("click", (event) => {
-        event.preventDefault(); // Prevent the default link behavior
-        window.open(slideLink); // Open the URL in a new tab/window
-    });
-});
+//     slide.innerHTML = "";
+//     slide.appendChild(anchorTag);
+//     console.log(anchorTag);
+//     anchorTag.addEventListener("click", (event) => {
+//         event.preventDefault(); // Prevent the default link behavior
+//         window.open(slideLink); // Open the URL in a new tab/window
+//     });
+// });
