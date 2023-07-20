@@ -76,6 +76,7 @@ p, a {
   display: flex;
   flex-direction: column;
   align-items: center;
+  max-width: 600px;
 }
 
 
@@ -112,6 +113,10 @@ p, a {
 .check-button:active {
   background: var(--color);
   color: #fff;
+}
+
+.active_plus {
+  background-color: #E62C03;
 }
 
 
@@ -159,6 +164,7 @@ p, a {
   font-size: 18px;
   line-height: 25px;
   border-radius: 4px;
+  background-color: black;
 }
 
 
@@ -520,7 +526,7 @@ footer {
 
 form {
 	margin-top: 30px;
-	/* max-width: 600px; */
+	max-width: 600px;
 	margin-left: auto;
 	margin-right: auto;
 	padding: 20px;
@@ -797,3 +803,7 @@ input[type="submit"]:hover {
        
       }
       
+
+.test {
+  background-color: #E62C03;
+}
